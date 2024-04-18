@@ -1,23 +1,37 @@
 const userMessage = [
-    ["i suspect cyberbullying", "i am a victim of cyberbullying"],
-    ["phishing email", "suspicious email"],
-    ["password protection", "password safety"]
+    ["i suspect cyberbullying", "victim of cyberbullying"], //0
+    ["phishing email", "suspicious email"], //1
+    ["password protection", "password safety"], //2
+    ["fraudulent activity on my bank account"], //3
+    ["how can i file the complaints about other cybercrimes", "report cybercrimes", "file complaint"], //4
+    ["which type of crimes I can report on the portal", "types of crimes to be reported"] //5
 ];
 const botReply = [
   [
-    "Block the bully from further contact.",
-    "Report their behavior to the platform or website where the bullying occurred.",
-    "Document the evidence by taking screenshots or saving messages."
-  ],
+    "block the bully from further contact.",
+    "report their behavior to the platform or website where the bullying occurred.",
+    "document the evidence by taking screenshots or saving messages."
+  ], //0
   [
-    "Verify the legitimacy of the email by contacting the organization directly through official channels.",
-    "Avoid clicking on links or downloading attachments from suspicious emails."
-  ],
+    "verify the legitimacy of the email by contacting the organization directly through official channels.",
+    "avoid clicking on links or downloading attachments from suspicious emails."
+  ], //1
   [
-    "Use strong, unique passwords for each account.",
-    "Avoid using easily guessable information like birthdays or names.",
-    "Enable two-factor authentication whenever possible."
-  ]
+    "use strong, unique passwords for each account.",
+    "avoid using easily guessable information like birthdays or names.",
+    "enable two-factor authentication whenever possible."
+  ], //2
+  [
+    "take immediate action by contacting your bank",
+    "report the suspicious activity and request a freeze on your account if necessary"
+  ], //3
+  [
+    "you can opt for “Report Other Cybercrimes” section and register yourself"
+  ], //4
+  [
+    "crime related to Women/ Child or other cybercrimes",
+    "online Child Pornography (CP), Child Sexual Abuse Material (CSAM) or sexually explicit content such as Rape/Gang Rape (CP/RGR) content or mobile crimes, online and social media crimes, online financial frauds, ransomware, hacking, cryptocurrency crimes and online cyber trafficking"
+  ] //5
 ];
 
 const alternative = [
